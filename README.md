@@ -1,47 +1,47 @@
-# References
+# Extracticon!
 
-* [current sensing](http://openenergymonitor.org/emon/buildingblocks/ct-sensors-interface)
-* [using tiny44/45 with arduino](http://highlowtech.org/?p=1695)
+* Turns on your extraction automatically when you use an attached tool
+* Cheap to build
+* 1 sided PCB easy to home fab
 
-# Todo
+# Electronics
 
-* remove tvalues for pcb production
-* mitre corners
-* bitly link
-* silk screen layout
-* label all headers
-* sort open hardware logo - look at oshpark email for resolution
-* add temperature? lm335 (got lots of)
-* heatsink mounts?
+![schematic](schematic.png)
 
-V3
+![pcb layout](layout.png)
 
-* button 
-* power led from rails
+# BOM
+
+(BOM)[bom.txt]
+
+# Code
+
+(Arduino code for ATTiny45](extracticon_tiny/)
+
+# Images
+
+![front](images/front.jpg)
+
+[More pics](images/)
 
 # Testing
 
-55C running a 2kw fan heater
+55C running a 2kw fan heater for 30 minutes. Thermal cutout set to 60.
 
 ![front](IR_front.jpg)
 
 ![side](IR_side.jpg)
 
-# Code
+# Todo
 
-check [the README](code/README.md)
+* remove tvalues for pcb production
+* bitly link
+* sort open hardware logo - look at oshpark email for resolution
 
-# Changelog
+# References
 
-# v2 
-
-* fix run led - wasn't connected to chip because of naming
-* added a temp sensor lm335
-* 2 layer board, with ground planes
-
-# v2 todo
-
-* check spi programming works with leds/triacs on pins - yes
+* [current sensing](http://openenergymonitor.org/emon/buildingblocks/ct-sensors-interface)
+* [using tiny44/45 with arduino](http://highlowtech.org/?p=1695)
 
 # License
 
