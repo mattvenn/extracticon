@@ -4,6 +4,12 @@
 * Cheap to build
 * 1 sided PCB easy to home fab
 
+# Images
+
+![front](photos/front.jpg)
+
+[More pics](photos/)
+
 # Electronics
 
 ![schematic](schematic.png)
@@ -18,12 +24,6 @@
 
 [Arduino code for ATTiny45](extracticon_tiny/)
 
-# Images
-
-![front](photos/front.jpg)
-
-[More pics](photos/)
-
 # Testing
 
 55C running a 2kw fan heater for 30 minutes. Thermal cutout set to 60.
@@ -35,6 +35,7 @@
 * remove tvalues for pcb production
 * bitly link
 * sort open hardware logo - look at oshpark email for resolution
+* add CAD files for enclosure
 
 # References
 
