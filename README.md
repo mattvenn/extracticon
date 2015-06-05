@@ -12,25 +12,23 @@
 
 # BOM
 
-(BOM)[bom.txt]
+[BOM](bom.txt)
 
 # Code
 
-(Arduino code for ATTiny45](extracticon_tiny/)
+[Arduino code for ATTiny45](extracticon_tiny/)
 
 # Images
 
-![front](images/front.jpg)
+![front](photos/front.jpg)
 
-[More pics](images/)
+[More pics](photos/)
 
 # Testing
 
 55C running a 2kw fan heater for 30 minutes. Thermal cutout set to 60.
 
-![front](IR_front.jpg)
-
-![side](IR_side.jpg)
+![front](photos/IR_front.jpg)
 
 # Todo
 
