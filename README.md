@@ -12,6 +12,9 @@
 
 # Electronics
 
+[This calculator](http://circuitcalculator.com/wordpress/2006/01/31/pcb-trace-width-calculator/) was used to calculate that for a 1.6KW extractor on UK 240V
+we need at least 4mm traces on 1oz copper to carry the current.
+
 ![schematic](schematic.png)
 
 ![pcb layout](layout.png)
