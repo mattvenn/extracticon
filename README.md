@@ -12,9 +12,6 @@
 
 # Electronics
 
-[This calculator](http://circuitcalculator.com/wordpress/2006/01/31/pcb-trace-width-calculator/) was used to calculate that for a 1.6KW extractor on UK 240V
-we need at least 4mm traces on 1oz copper to carry the current.
-
 ![schematic](schematic.png)
 
 ![pcb layout](layout.png)
@@ -37,11 +34,13 @@ we need at least 4mm traces on 1oz copper to carry the current.
 
 * remove tvalues for pcb production
 * bitly link
-* sort open hardware logo - look at oshpark email for resolution
 * add CAD files for enclosure
+* missing component values in the bom and schematic
 
 # References
 
+* [This calculator](http://circuitcalculator.com/wordpress/2006/01/31/pcb-trace-width-calculator/) was used to calculate that for a 1.6KW extractor on UK 240V
+we need at least 4mm traces on 1oz copper to carry the current.
 * [current sensing](http://openenergymonitor.org/emon/buildingblocks/ct-sensors-interface)
 * [using tiny44/45 with arduino](http://highlowtech.org/?p=1695)
 
