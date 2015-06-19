@@ -33,7 +33,7 @@ We tested 2KW for 30 minutes.
 
 ![front](photos/IR_front.jpg)
 
-This thermal picture shows maximum of 55C so internal thermal cutout set to 60C.
+This thermal picture shows maximum of 50C so internal thermal cutout set to 60C.
 
 # Todo
 
