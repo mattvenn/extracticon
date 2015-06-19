@@ -6,7 +6,7 @@
 * Rated at 1.8KW Max,
 * Thermal cutout.
 
-# Images
+# Photos
 
 ![front](photos/front.jpg)
 
