@@ -1,8 +1,10 @@
 # Extracticon!
 
-* Turns on your extraction automatically when you use an attached tool
-* Cheap to build
-* 1 sided PCB easy to home fab
+* Turns on your extraction automatically when you use an attached tool,
+* Cheap to build,
+* 1 sided PCB easy to home fab,
+* Rated at 1.8KW Max,
+* Thermal cutout.
 
 # Images
 
@@ -26,9 +28,12 @@
 
 # Testing
 
-55C running a 2kw fan heater for 30 minutes. Thermal cutout set to 60.
+Circuit board is rated for 1.8KW Max.
+We tested 2KW for 30 minutes.
 
 ![front](photos/IR_front.jpg)
+
+This thermal picture shows maximum of 55C so internal thermal cutout set to 60C.
 
 # Todo
 
@@ -39,8 +44,7 @@
 
 # References
 
-* [This calculator](http://circuitcalculator.com/wordpress/2006/01/31/pcb-trace-width-calculator/) was used to calculate that for a 1.6KW extractor on UK 240V
-we need at least 4mm traces on 1oz copper to carry the current.
+* [This calculator](http://circuitcalculator.com/wordpress/2006/01/31/pcb-trace-width-calculator/) was used to calculate that with 5mm traces we can switch 7.7A or 1.8KW at 240VAC.
 * [current sensing](http://openenergymonitor.org/emon/buildingblocks/ct-sensors-interface)
 * [using tiny44/45 with arduino](http://highlowtech.org/?p=1695)
 
