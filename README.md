@@ -22,14 +22,18 @@
 
 [BOM](bom.txt)
 
+* Parts missing from the BOM are standard resistors and LEDs. 
+* Ensure caps are at least 6V, preferable 12V.
+
 # Code
 
 [Arduino code for ATTiny45](extracticon_tiny/)
 
 # Testing
 
-Circuit board is rated for 1.8KW Max.
-We tested 2KW for 30 minutes.
+* Circuit board is rated for 1.8KW Max.
+* Current capacity can be increased by adding solder to the traces.
+* We tested 2KW for 30 minutes.
 
 ![front](photos/IR_front.jpg)
 
@@ -37,10 +41,7 @@ This thermal picture shows maximum of 50C so internal thermal cutout set to 60C.
 
 # Todo
 
-* remove tvalues for pcb production
-* bitly link
 * add CAD files for enclosure
-* missing component values in the bom and schematic
 
 # References
 
