@@ -18,12 +18,17 @@
 
 ![pcb layout](layout.png)
 
-# BOM
+# Electronics BOM
 
 [BOM](bom.txt)
 
 * Parts missing from the BOM are standard resistors and LEDs. 
 * Ensure caps are at least 6V, preferable 12V.
+
+# Case
+
+* [Case BOM & Build notes](build_notes.md)
+* [DXF for laser cutting](case.dxf)
 
 # Code
 
@@ -38,10 +43,6 @@
 ![front](photos/IR_front.jpg)
 
 This thermal picture shows maximum of 50C so internal thermal cutout set to 60C.
-
-# Todo
-
-* add CAD files for enclosure
 
 # References
 
